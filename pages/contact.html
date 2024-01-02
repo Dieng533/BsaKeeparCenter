@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSA-KEEPAR</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="shortcut icon" href="../media/bsakeepar.png" type="image/x-icon">
+    <!-- box icone -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<!-- start header -->
+<header>
+      
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+   
+       <div class="container-fluid">
+
+           <div class="row justify-content-end">
+               <a href="../index.html" class="navbar-brand">
+                   <img src="../media/bsakeepar.png" width="100" height="60" alt="logo de l'association BSA-KEEPAR">
+                </a>
+           </div>
+           <!-- Toggler/collapsibe Button -->
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <!-- <i class='bx bx-menu' id="menu-icon"></i> -->
+
+           <div class="nav justify-content-center" id="collapsibleNavbar">
+               <ul class="navbar-nav">
+                   <li class="nav-item active">
+                       <a class="nav-link" aria-current="page" href="../index.html">Accueil</a>
+                   </li>
+                       
+                   <li class="nav-item">
+                       <a class="nav-link" href="../pages/services.html" tabindex="-1" aria-disabled="true">Mission</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="../pages/propos.html" tabindex="-1" aria-disabled="true">A-Propos</a>
+                   </li>
+                   <!-- <li class="nav-item">
+                        <a class="nav-link" href="../pages/galery.html">Galery</a>
+                   </li> -->
+                   <li class="nav-item">
+                       <a class="nav-link" href="../pages/contact.html">Contact</a>
+                   </li>
+               </ul>
+               <a type="button" class="btn btn-outline-success" href="../pages/contact.html">Nous rejoindre</a>   
+           </div>
+       </div>
+     </nav>
+</header>
+<!-- end header -->
+
+<!-- end contact formulaire -->
+<section class="contact">
+<div class="contact_info">
+    <div class="container">
+        <div class="contact_form_title">
+            <h4>Contact</h4>
+        </div>
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="contact_info_container d-flex flex-lg-row flex-column justify-content-between align-items-between">
+
+                    <!-- Contact Item -->
+                    <div class="contact_info_item d-flex flex-row align-items-center justify-content-start">
+                        <div class="contact_info_image"><img src="https://img.icons8.com/office/24/000000/iphone.png" alt=""></div>
+                        <div class="contact_info_content">
+                            <div class="contact_info_title">Téléphone</div>
+                            <div class="contact_info_text">+33 6 05 97 12 82</div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Item -->
+                    <div class="contact_info_item d-flex flex-row align-items-center justify-content-start">
+                        <div class="contact_info_image"><img src="https://img.icons8.com/ultraviolet/24/000000/filled-message.png" alt=""></div>
+                        <div class="contact_info_content">
+                            <div class="contact_info_title">Email</div>
+                            <div class="contact_info_text">centerbsakeepar@gmail.com</div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Item -->
+                    <div class="contact_info_item d-flex flex-row align-items-center justify-content-start">
+                        <div class="contact_info_image"><img src="https://img.icons8.com/ultraviolet/24/000000/map-marker.png" alt=""></div>
+                        <div class="contact_info_content">
+                            <div class="contact_info_title">Addresse</div>
+                            <div class="contact_info_text">6 rue Greuze Villeurbanne , Lyon, France</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="contact_form">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="contact_form_container">
+                    <div class="contact_form_title">
+                        <h4>Contacter par formulaire</h4>
+                    </div>
+
+                    <form action="#" id="contact_form">
+                        <div class="contact_form_inputs d-flex flex-md-row flex-column justify-content-between align-items-between">
+                            <input type="text" id="contact_form_name" class="contact_form_name input_field" placeholder="votre nom complet" required="required" data-error="votre nom complet est obligatoire..">
+                            <input type="text" id="contact_form_email" class="contact_form_email input_field" placeholder="votre email" required="required" data-error="Email est obligatoire.">
+                            <input type="text" id="contact_form_phone" class="contact_form_phone input_field" placeholder="votre numéro de Téléphone">
+                        </div>
+                        <div class="contact_form_text">
+                            <textarea id="contact_form_message" class="text_field contact_form_message" name="message" rows="4" placeholder="Message" required="required" data-error="Please, entrer votre message."></textarea>
+                        </div>
+                        <div class="contact_form_button">
+                            <button type="submit" class="button contact_submit_button">Soumettre</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!-- end section contact formulaire -->
+
+<!-- section footer -->
+<footer class="container-fluid text-white mt-5 py-1 px-sm-1 px-md-5">
+            <div class="container text-center py-5">
+                <div class="social-media" id="social-media">
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.youtube.com/@Keepariste"><i class='bx bxl-youtube'></i></a>
+                    <a href="https://www.facebook.com/BSAkeeparcenter"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/bsa_keepar_center?igsh=YXZvdHI5OGh0czF6"><i class='bx bxl-instagram'></i></a>    
+                </div>
+                <div class="d-flex justify-content-center mb-3" >
+                    <a class="text-white" href="../pages/propos.html">à propos</a>
+                    <span class="px-3">|</span>
+                    <a class="text-white" href="#">politique de confidentialité</a>
+                    <span class="px-3">|</span>
+                    <a class="text-white" href="#">Aide</a>
+                </div>
+                <p class="m-0">&copy; <a class="text-white font-weight-bold" href="../index.html">BSA-KEEPAR CENTER</a>
+                </p>
+            </div>
+</footer>
+          <!-- lien javscript responsive bootstrap -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+    </script>
+    <script src="./js/menutogle.js"></script>
+         <!-- Bootstrap's Javascript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>

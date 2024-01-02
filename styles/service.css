@@ -1,0 +1,19 @@
+.ho:hover{
+    text-shadow: none !important;
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    transition: all 3.s ease !important;
+    -webkit-transform: scale(1.1) !important;
+    -ms-transform: scale(1.1) !important;
+    transform: scale(1.1);
+    z-index: 2;
+}
+aside{
+    margin-top: 4rem;
+  }
+  section .titre{
+    text-align: center;
+    margin-bottom: 4rem;
+    font-weight: bolder;
+    color: #978206;
+  }

@@ -1,0 +1,23 @@
+
+section .descript{
+  margin-top: 4rem;
+  color: #ffffff;
+}
+section .titre{
+  text-align: center;
+  margin-top: 6rem;
+  font-weight: bolder;
+  color: #ffffff;
+}
+section #txt2{
+  color: #ffffff;
+}
+section .txt1{
+  color: #ffffff;
+}
+section .logoPropos{
+  margin-top: 1rem;
+}
+span{
+  color: #978206;
+}
